@@ -13,3 +13,6 @@ GIT:
 ng:
 new component erstellen: ng g c componentsName
 öffnen localhost: ng serve -o
+
+
+footer = fußzeile
