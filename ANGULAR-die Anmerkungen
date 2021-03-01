@@ -8,3 +8,8 @@ GIT:
 5- git add .
 6- git commit -m "your comment"
 7- git push origin master >> your name and password in github
+8- git log
+
+ng:
+new component erstellen: ng g c componentsName
+öffnen localhost: ng serve -o
