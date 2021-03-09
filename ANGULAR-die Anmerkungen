@@ -15,4 +15,16 @@ new component erstellen: ng g c componentsName
 öffnen localhost: ng serve -o
 
 
+ROUTING:
+1- gehen Sie mal zur app-routing.module.ts
+2- erst imortieren Sei die Component oben>> import {aboutComponent //this is the class name in your about component} from './about/about.component';
+3- in const routes: Routes=[] >> hier müssen Sie Ihre Compüonent Routing und defenieren wie folgendes:
+  const routes: Routes =[
+  {
+    path: 'about', >> Ihre Component, welche Sie Routing würde
+    component: AboutComponent, >>Class Ihre (about) component ist "AboutComponent"
+    pathMatxh: 'full'
+  },
+]
+begriffen:
 footer = fußzeile

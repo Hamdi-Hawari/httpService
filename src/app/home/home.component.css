@@ -1,0 +1,15 @@
+h1, h2{
+  text-align: center;
+}
+
+img{
+margin: 0 auto;
+  width: 60%;
+  display: block;
+}
+p{
+  font-size: 21px;
+  text-align: center;
+
+}
+
